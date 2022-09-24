@@ -1,0 +1,39 @@
+// Reference: LeetCode, Lecture 2 PowerPoint (slides 18, 23-26)
+// I used these Lecture 2 Slides to help me write my pseudocode from the given Java code
+
+twosum.txt
+
+algorithm twoSumFast
+    input: arr, target
+    output: sum of target value
+
+    HashSet of Integers seen
+    for each element j in arr
+        otherAddend = target - each j in arr
+        if seen contains otherAddend
+            for each element i in arr
+                if each i in arr = otherAddend
+                    return [i, j] as new array
+                else
+                    add seen to each j in arr
+            return [-1, -1] as new array
+
+
+
+Given Java Code: 
+public static int[] twoSumFast(int[] arr, int target) {
+    HashSet<Integer> seen = new HashSet<>();
+    for (int j = 0; j < arr.length; j++) {
+        int otherAddend = target - arr[j];
+        if (seen.contains(otherAddend)) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == otherAddend) {
+                return new int[] {i, j};
+            }
+        }
+    } else {
+        seen.add(arr[j]);
+        }
+    }
+    return new int[] {-1, -1};
+}

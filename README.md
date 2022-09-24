@@ -1,2 +1,2 @@
-# CSC-4520
-CSC 4520: Design &amp; Analysis: Algorithms (Fall 2022)
+# CSC 4520: Fall 2022 (GSU)
+## Design & Analysis: Algorithms
