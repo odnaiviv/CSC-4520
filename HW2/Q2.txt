@@ -1,0 +1,11 @@
+Q2: Exponentiation (Fast?)
+
+assuming that n = power
+
+Best Case: O(1)
+This is when p = 0 or p = 1.
+
+Average Case: O(log(n))
+
+Worst Case: O(n)
+This is when p is even, making the recursive relation T(n) = T(n - 2) + O(1) → O(n)

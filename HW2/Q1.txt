@@ -1,0 +1,13 @@
+Q1: Mysterious Function
+
+Worst Case Runtime = O(log_10 n) or O(long base 10 n)
+
+n is defined as integer z. The function is recursively calling z/10 every time and returning some value when true, and returning the function on base condition when false.
+
+Using Recurrence Relation the function is T(n) = T(n/10) + k
+a = 1; b = 10; k = 0
+1 = (10^0) → 1 = 1
+Using the Master Theorem, a = b^k → T(N) ∈ n^k log_b n
+T(N) = n^0 (log_10 n) → 1(log_10 n) → O(log_10 n)
+
+The tight upper bound is also O(log_10 n).
