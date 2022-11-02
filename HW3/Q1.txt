@@ -1,0 +1,12 @@
+Q1: Assuming T is defined in Java, what code do I write to get "sun" back?
+
+My Code:
+// assuming that children and value are initialized
+// prints “sun” value
+System.out.println(T.getChildren().get(0).getChildren().get(0).getValue());
+
+Explanation: 
+T.getChildren() points to all of the children of the root node (“hat”) in tree (T)
+T.getChildren().get(0) gets the 0th child in List (“lit”)
+T.getChildren().get(0).getChildren().get(0) points to the 0th child in the List of the 0th child subtree (“sun”)
+T.getChildren().get(0).getChildren().get(0).getValue() gets the value of the 0th child in 0th List (“sun”)

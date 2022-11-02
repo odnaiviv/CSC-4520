@@ -1,0 +1,9 @@
+Q2: What will System.out.println(T.getChildren().get(2).getChildren()) output? Be as specific as possible.
+
+My Output: “pup”
+
+Explanation: 
+T.getChildren() points to all of the children of the root node (“hat”) in tree (T)
+T.getChildren().get(2) gets the 2nd child in List (“cat”)
+T.getChildren().get(2).getChildren() points to the child in the List of the 2nd child subtree (“pup”)
+The value “pup” is then printed as the expected output.

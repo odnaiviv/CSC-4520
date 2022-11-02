@@ -1,0 +1,17 @@
+Q3: Given the following code, what will we output for mystery(T)?
+
+Given Code: 
+public static void mystery(TreeNode<String> node) {
+    List<TreeNode<String>> children = node.getChildren();
+    for (int i = 1; i < children.size(); i++) {
+        TreeNode<String> child = children.get(i);
+        System.out.println(child.getValue());
+        mystery(child);
+    }
+}
+
+My Output: 
+“lit” → “sun” → “nap” → “sat” → “cap” → “cat” → “pup”
+
+Explanation: 
+mystery is a recursive function; it will iterate through every element in the TreeNode List until there are none left. Every child node is called recursively in the mystery function, and the method will print all of the child node’s values until the end of the tree. The final output is a printed list of all of the tree’s children’s values/nodes.
