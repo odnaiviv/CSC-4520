@@ -1,5 +1,7 @@
 ## Homework 1 Instructions & Code
 
+### Grade: 85 (deducted for question 3)
+
 *Instructions: [HW1 Instructions](https://github.com/odnaiviv/CSC-4520/blob/main/HW1/HW1%20Pseudocode%20and%20Recursion.pdf)*
 
 >My HW1 Code: [HW1.java](https://github.com/odnaiviv/CSC-4520/blob/main/HW1/HW1.java) | [twosum.txt](https://github.com/odnaiviv/CSC-4520/blob/main/HW1/twosum.txt)
