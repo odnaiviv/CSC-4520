@@ -1,5 +1,10 @@
 ## Homework 2 Instructions & Code
 
+### Grade: 80 :/
+
+2) Best Case = O(log(n)) where n is power; Average Case = O(n)
+
+
 *Instructions: [HW2 Instructions](https://github.com/odnaiviv/CSC-4520/blob/main/HW2/HW2%20Runtime%20and%20QuickSort.pdf)*
 
 >My HW2 File: [HW2 - Vivian Do.pdf](https://github.com/odnaiviv/CSC-4520/blob/main/HW2/HW2%20-%20Vivian%20Do.pdf)
