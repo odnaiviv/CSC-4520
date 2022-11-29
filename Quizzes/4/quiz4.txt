@@ -1,0 +1,10 @@
+Code:
+
+// maxOfTree method
+public static int maxOfTree(TreeNode<Integer> tree) {
+	int maxSoFar = tree.getValue();
+	for (TreeNode<Integer> child : tree.getChildren()) {
+		maxSoFar = Math.max(maxSoFar, maxOfTree(child));
+	}
+	return maxSoFar;
+}
