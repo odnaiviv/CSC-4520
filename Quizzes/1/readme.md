@@ -2,10 +2,6 @@
 
 ### Grade: 100 :D
 
-2) -2 wrong answer
-
-4) -2 wrong answer
-
 
 >My File:
 >* [Pop Quiz 1 - Vivian Do.pdf](https://github.com/odnaiviv/CSC-4520/blob/main/Quizzes/1/Pop%20Quiz%201%20-%20Vivian%20Do.pdf)
